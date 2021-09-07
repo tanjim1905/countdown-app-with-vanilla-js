@@ -1,0 +1,77 @@
+/* Fonst */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(
+      135deg,
+      rgba(185, 136, 224, 0.116),
+      rgba(255, 255, 255, 0.068)
+    ),
+    url(../images/bg.jpg);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #0ea0e9;
+  font-weight: bolder;
+}
+
+/* Countdown Box */
+.countdown-box {
+  background-color: rgba(255, 255, 255, 0.062);
+  border: 1px solid #ff9701;
+  color: rgb(255, 255, 255);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.countdown {
+  font-size: 70px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+hr {
+  width: 75%;
+  margin: 0px auto;
+}
+
+/* Subscriber Button */
+
+.subscribe-input {
+  background: transparent;
+  color: #fff;
+  border: 3px solid #ff9701;
+}
+
+.subscribe-input::placeholder {
+  color: #ff9701;
+}
+
+.subscribe-button {
+  background: #ff9701;
+  border: 3px solid #ff9701;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Social Icons */
+.social-icons i {
+  padding: 7px;
+  margin: 5px;
+  border-radius: 10px;
+  color: #0ea0e9;
+  border: 1px solid #ff9701;
+  cursor: pointer;
+}
+
+/* mediaQuery */
+@media (min-width: 992px) {
+  body {
+    overflow-y: hidden;
+  }
+}
+

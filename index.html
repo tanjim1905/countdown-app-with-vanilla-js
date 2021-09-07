@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/125b39bff2.js" crossorigin="anonymous"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="stylesheet/style.css" />
+  </head>
+  <body>
+    <!-- Header Part -->
+    <header>
+      <div class="heading pt-5">
+        <h1>We are coming soon</h1>
+      </div>
+      <div class="details px-5">
+        <p class="text-center text-white">Our website is under construction. We'll be here soon with our new awesome sete, subscribed to be notified.</p>
+      </div>
+    </header>
+    
+    <!-- Main Part Start -->
+    <main>
+      <section class="container mt-5">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-5 justify-content-center g-4">
+          <div class="col">
+            <!-- Countdown Box -->
+            <div class="countdown-box mx-auto">
+              <div class="countdown" id="years">0</div>
+              <hr>
+              <div class="countdown-name">Years</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="countdown-box mx-auto">
+              <div class="countdown" id="days">0</div>
+              <hr>
+              <div class="countdown-name">Days</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="countdown-box mx-auto">
+              <div class="countdown" id="hours">0</div>
+              <hr>
+              <div class="countdown-name">Hours</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="countdown-box mx-auto">
+              <div class="countdown" id="minutes">0</div>
+              <hr>
+              <div class="countdown-name">Minutes</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="countdown-box mx-auto">
+              <div class="countdown" id="seconds">0</div>
+              <hr>
+              <div class="countdown-name">Seconds</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Main Part End -->
+
+    <!-- Footer -->
+    <footer class="container mt-5 p-5">
+      <h2 class="text-center mt-lg-5 pt-2">Stay In Touch</h2>
+
+      <!-- Subscribe Part -->
+      <div class="subscribe pt-2">
+        <div class="input-group mt-2 mb-3 w-75 mx-auto">
+          <input type="text" id="search-input" class="form-control border-3 subscribe-input" placeholder="Enter your mail"/>
+          
+          <button class="btn btn-outline-secondary subscribe-button" type="button"
+            id="search-btn">Subscribe</button>
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="social-icons d-flex justify-content-center mt-3">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-pinterest-p"></i>
+      </div>
+    </footer>
+
+
+    <!-- App JS Link -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
