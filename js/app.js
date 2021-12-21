@@ -2,7 +2,7 @@
 
 const countDownTimer = () => {
     const now = new Date().getTime();
-    const deadLine = new Date('December 8, 2021 11:59:59').getTime();
+    const deadLine = new Date('December 8, 2096 11:59:59').getTime();
     const deadLineTime = deadLine - now;
 
     let seconds = Math.floor(deadLineTime / 1000);
